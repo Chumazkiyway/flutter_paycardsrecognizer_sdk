@@ -1,0 +1,7 @@
+Executable : /Users/bogdanchumak/Library/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a
+cardrecognizer
+jvmArgs : 
+

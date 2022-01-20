@@ -1,0 +1,60 @@
+{
+  "buildFiles": [
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/CMakeLists.txt",
+    "/Users/bogdanchumak/Library/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/bogdanchumak/Library/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/armneon2x86sse/CMakeLists.txt",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/armneon2x86sse/cmake/Config.cmake.in",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/eigen/CMakeLists.txt",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/protobuf/CMakeLists.txt",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/caffe/CMakeLists.txt",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/libyuv/CMakeLists.txt",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/crossplatform/CMakeLists.txt",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/opencv2/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/opencv2/sdk/native/jni/abi-armeabi-v7a/OpenCVConfig.cmake",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/opencv2/sdk/native/jni/abi-armeabi-v7a/OpenCVModules.cmake",
+    "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/src/main/cpp/opencv2/sdk/native/jni/abi-armeabi-v7a/OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/bogdanchumak/Library/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/bogdanchumak/Library/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "libyuv-Debug-armeabi-v7a": {
+      "artifactName": "libyuv",
+      "buildCommand": "/Users/bogdanchumak/Library/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a\" libyuv",
+      "abi": "armeabi-v7a",
+      "output": "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a/libyuv/liblibyuv.a",
+      "runtimeFiles": []
+    },
+    "caffe-Debug-armeabi-v7a": {
+      "artifactName": "caffe",
+      "buildCommand": "/Users/bogdanchumak/Library/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a\" caffe",
+      "abi": "armeabi-v7a",
+      "output": "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a/caffe/libcaffe.a",
+      "runtimeFiles": []
+    },
+    "cardrecognizer-Debug-armeabi-v7a": {
+      "artifactName": "cardrecognizer",
+      "buildCommand": "/Users/bogdanchumak/Library/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a\" cardrecognizer",
+      "abi": "armeabi-v7a",
+      "output": "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/example/build/pay-card-recognizer-sdk/intermediates/cmake/debug/obj/armeabi-v7a/libcardrecognizer.so",
+      "runtimeFiles": []
+    },
+    "crossplatform-Debug-armeabi-v7a": {
+      "artifactName": "crossplatform",
+      "buildCommand": "/Users/bogdanchumak/Library/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a\" crossplatform",
+      "abi": "armeabi-v7a",
+      "output": "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a/crossplatform/libcrossplatform.a",
+      "runtimeFiles": []
+    },
+    "protobuf-Debug-armeabi-v7a": {
+      "artifactName": "protobuf",
+      "buildCommand": "/Users/bogdanchumak/Library/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a\" protobuf",
+      "abi": "armeabi-v7a",
+      "output": "/Users/bogdanchumak/AndroidStudioProjects/flutter_paycardsrecognizer_sdk/android/pay-card-recognizer-sdk/.cxx/cmake/debug/armeabi-v7a/protobuf/libprotobuf.a",
+      "runtimeFiles": []
+    }
+  }
+}

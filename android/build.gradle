@@ -18,9 +18,26 @@ group 'org.cards.pay.paycardsrecognizer.sdk.flutter_paycardsrecognizer_sdk'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.5.10'
+    project.ext {
+        kotlin_version = '1.5.10'
+        // Sdk and tools
+        minSdkVersion = 23
+        targetSdkVersion = 32
+        compileSdkVersion = 32
+
+        // App dependencies
+        supportLibVersion = '27.1.1'
+        yearclassVersion = "2.1.0"
+
+        // App test dependencies
+        junitVersion = '4.12'
+        espressoVersion = '3.0.2'
+        robolectricVersion = "3.8"
+        mockitoVersion = "2.21.0"
+    }
     repositories {
         google()
+        jcenter()
         mavenCentral()
         maven {
             url "http://pay.cards/maven"
@@ -37,6 +54,7 @@ buildscript {
 rootProject.allprojects {
     repositories {
         google()
+        jcenter()
         mavenCentral()
         maven {
             url "http://pay.cards/maven"
@@ -45,22 +63,29 @@ rootProject.allprojects {
     }
 }
 
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(':pay-card-recognizer-sdk')
+}
+
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion project.ext.compileSdkVersion
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 23
     }
 }
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    implementation 'cards.pay:paycardsrecognizer:1.1.0'
+//    implementation 'cards.pay:paycardsrecognizer:1.1.0'
+    implementation project(":pay-card-recognizer-sdk")
 }

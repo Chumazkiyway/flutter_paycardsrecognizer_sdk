@@ -1,0 +1,5 @@
+include ':flutter_paycardsrecognizer_sdk'
+include ':pay-card-recognizer-sdk'
+
+project(':flutter_paycardsrecognizer_sdk').projectDir = file('android')
+project(':pay-card-recognizer-sdk').projectDir = file('android/pay-card-recognizer-sdk')
